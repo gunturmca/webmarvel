@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\admin",
+    "\\admin\\application",
+    "\\admin\\application\\controllers",
+    "\\admin\\application\\models",
+    "\\admin\\application\\views",
+    "\\admin\\application\\views\\admin",
+    "\\rest_ci",
+    "\\rest_ci\\application",
+    "\\rest_ci\\application\\config"
+  ],
+  "SelectedNode": "\\admin\\application\\views\\admin\\movementAcc.php",
+  "PreviewInSolutionExplorer": false
+}
