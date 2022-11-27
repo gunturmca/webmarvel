@@ -1,0 +1,30 @@
+body {
+  margin: 10px;
+  padding: 0;
+
+}
+
+
+
+.panel-main img,
+.thumbs img {
+  width: 100%;
+  height: auto;
+}
+
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}

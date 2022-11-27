@@ -1,0 +1,152 @@
+
+.judul
+{
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-size: 30px;
+}
+.floating-form { /*contact form wrapper*/
+    width: 350px;
+    padding: 20px 10px 10px 15px;
+    border: 1px solid #ddd;
+    right: 10px;
+    margin-top: -110px;
+    position: fixed; /*Form position fixed*/
+    background-color:#f5f5f5;
+	}
+.contact_body { /*contact form wrapper*/
+    
+    padding-right: 10px;
+
+    overflow:auto;
+	}
+/*.contact-opener { 
+    position: absolute;
+    left: -70px;
+    transform: rotate(-90deg); 
+    top: 30px;
+    padding: 9px;
+    color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.43);
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+}*/
+.floating-form span.required{
+    color:red;
+}
+.floating-form .tel-number-field{
+    width: 40px;
+    text-align: center;
+}
+.floating-form  .long{
+    width: 120px;
+}
+.floating-form input.input-field{
+    width: 68%;
+   
+}
+
+.floating-form input.input-field,
+.floating-form .tel-number-field
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    height:27px;
+    margin-bottom:5px;
+}
+.floating-form .textarea-field
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    margin-bottom:5px;
+  
+}
+.floating-form .select-field{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    margin-bottom:5px;
+   
+}
+.floating-form .input-field:focus,
+.floating-form .tel-number-field:focus
+{
+    border: 1px solid #5F9EA0;
+    height:27px;
+}
+.floating-form .textarea-field:focus
+{
+    border: 1px solid #5F9EA0;
+   
+}  
+.floating-form .select-field:focus{
+    border: 1px solid #5F9EA0;
+   
+}
+.floating-form .textarea-field{
+    height:100px;
+    width: 68%;
+}
+.contact-opener {
+    position: absolute;
+    left: -70px;
+    transform: rotate(-90deg);
+    margin-top: 180px;
+    background-color: #5F9EA0;
+    padding: 9px;
+    color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.43);
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+    -moz-box-shadow: -2px -0px 8px rgba(43, 33, 33, 0.06);
+    -webkit-box-shadow:  -2px -0px 8px rgba(43, 33, 33, 0.06);
+
+}
